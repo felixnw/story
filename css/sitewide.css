@@ -27,10 +27,11 @@ div, main, article, section, aside, hgroup, header, footer, address, nav {
 /* start project-specifc styles below this line */
 
 body {
-	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Libre Franklin", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.5em;
 	color: #222;
+	grid-column: 2/3;
 }
 
 /*	Generally, you will only want one container element in
@@ -51,23 +52,25 @@ body {
 
 .top {
 	width: 100%;
-	height: 30%;
-	background-color: teal;
+	background-color: darkgrey;
+	background-image: url(../img/headline.jpg);
 }
 
 .headline {
+	font-family: "Adamina", "Source Sans Pro";
 	font-size: 10em;
 	text-align: center;
 	line-height: 1em;
-	margin-top: 0em;
-	padding-top: 0.5em;
+	margin: 0em;
+	padding-top: 0.75em;
+	padding-bottom: 0.75em;
+	color: white;
 }
 
 .navbar {
 	width: 100%;
-	background-color: grey;
-	height: 10%;
-	padding: 2em;
+	background-color: rgba(50, 50, 50 , 1);
+	padding: 1.5em;
 	text-align: center;
 }
 
@@ -96,4 +99,16 @@ body {
 	width: 100%;
 	max-width: 1200px;
 	padding: 2em;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.title {
+	font-family: "Adamina";
+	font-size: 2em;
+	padding: 2em;
+}
+
+.header {
+	grid-column: 1/3;
 }
