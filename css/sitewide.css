@@ -15,10 +15,10 @@ img, object { max-width: 100%; }
 /*	Development/layout aid. Remove the comments
 	on this rule in order to draw boxes around DIVs
 	and other elements used for layout. */
-/* 
+/*
 div, main, article, section, aside, hgroup, header, footer, address, nav {
 	border: 1px solid rgba(255,0,0,0.15) !important;
-	background: rgba(255,0,0,0.05) !important;		
+	background: rgba(255,0,0,0.05) !important;
 }
 */
 
@@ -34,18 +34,66 @@ body {
 }
 
 /*	Generally, you will only want one container element in
-	the document, wrapping around the main content area. 
+	the document, wrapping around the main content area.
 	If you have more than one container, you are probably doing
-	something wrong. 	
+	something wrong.
 */
 .container {
+	/* margin-top: 1em; */
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	width: 100%;
+	/* max-width: 1200px; */
+	/* padding: 2em; */
+	/* border: 5px solid #eee; */
+}
+
+.top {
+	width: 100%;
+	height: 30%;
+	background-color: teal;
+}
+
+.headline {
+	font-size: 10em;
+	text-align: center;
+	line-height: 1em;
+	margin-top: 0em;
+	padding-top: 0.5em;
+}
+
+.navbar {
+	width: 100%;
+	background-color: grey;
+	height: 10%;
+	padding: 2em;
+	text-align: center;
+}
+
+.navbar a {
+	padding: 2em;
+	color: white;
+	text-decoration: none;
+}
+
+.sidenavbar
+{
+	position: fixed;
+	font-size: 1em;
+	width: 100%;
+	background-color: grey;
+	height: 10%;
+	padding: 2em;
+	text-align: center;
+}
+
+.textarea {
 	margin-top: 1em;
 	margin-right: auto;
 	margin-bottom: 1em;
 	margin-left: auto;
-	width: 90%;
+	width: 100%;
 	max-width: 1200px;
 	padding: 2em;
-	border: 5px solid #eee;
 }
-
