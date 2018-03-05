@@ -49,15 +49,18 @@ body {
 	/* border: 5px solid #eee; */
 }
 
+
+
 .top {
 	width: 100%;
 	background-color: darkgrey;
-	background-image: url(../img/headline.jpg);
+	background-image: url(../img/headline2.jpg);
+    background-size: cover;
 }
 
 .headline {
 	font-family: "Adamina", "Source Sans Pro";
-	font-size: 10em;
+	font-size: 7em;
 	text-align: center;
 	line-height: 1em;
 	margin: 0em;
@@ -99,7 +102,7 @@ body {
 	max-width: 1200px;
 	padding: 2em;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr;
 }
 
 .title {
@@ -108,10 +111,33 @@ body {
 	padding: 2em;
 }
 
-.header {
-	grid-column: 1/4;
+.notop {
+    margin-top: 0em;
 }
 
-.content {
-	grid-column: 2/4;
+h1 {
+    line-height: 1em;
 }
+
+.caption {
+    font-size: 0.75em;
+}
+
+@media (min-width: 600px) {
+    .textarea {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .header {
+	   grid-column: 1/2;
+       margin-right: 2em;
+    }
+
+    .content {
+	   grid-column: 2/4;
+    }
+    
+    .headline {
+        font-size: 10em;
+    }
+}
+
