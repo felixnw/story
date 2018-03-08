@@ -7,8 +7,7 @@ STUDENTS: edit this file. Add text that describes your project. Include your nam
 Website about The Bone Wars, text used from wikipedia.
 
 Sources:
-https://www.flickr.com/photos/jsjgeology/23987535436
-https://en.wikipedia.org/wiki/Bone_Wars
+Text: https://en.wikipedia.org/wiki/Bone_Wars
 https://upload.wikimedia.org/wikipedia/commons/6/6a/Othniel_Charles_Marsh_%26_Edward_Drinker_Cope_bw.jpg
 https://en.wikipedia.org/wiki/File:OCmarsh.jpg
 https://en.wikipedia.org/wiki/File:Como_Bluff.jpg

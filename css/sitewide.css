@@ -39,22 +39,16 @@ body {
 	something wrong.
 */
 .container {
-	/* margin-top: 1em; */
 	margin-right: auto;
 	margin-bottom: 1em;
 	margin-left: auto;
 	width: 100%;
-	/* max-width: 1200px; */
-	/* padding: 2em; */
-	/* border: 5px solid #eee; */
 }
-
-
 
 .top {
 	width: 100%;
 	background-color: darkgrey;
-	background-image: url(../img/headline2.jpg);
+	background-image: url(../img/headline.jpg);
     background-size: cover;
 }
 
@@ -77,7 +71,7 @@ body {
 }
 
 .navbar a {
-	padding: 2em;
+	padding-right: 1em;
 	color: white;
 	text-decoration: none;
 }
@@ -138,6 +132,11 @@ h1 {
     
     .headline {
         font-size: 10em;
+    }
+    
+    .navbar a {
+	   padding: 2em;
+       margin: 0em;
     }
 }
 
